@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    box-sizing:border-box;
+    top: 0;
+    padding: 0;
+
+ }
+
+ body{
+    background-color: rgb(21, 20, 20);
+}
+
+h1{
+text-align: center;
+list-style: none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #fff;
+font-size: 40px;
+text-decoration: underline #a20404cf;
+}
+
+a{
+    color: #fff;
+    font-size: 35px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+i{
+    color: #ffffff;
+    margin: 30px;
+   font-size: 30px;
+   height: 40px;
+   width: 500px;
+   padding: 3px ;
+   text-align: center;
+   border-radius: 7px;
+  display: inline-block;
+  transition: 1s;
+  background-color: #a20404cf;
+  }
+  
+  
+  i:hover{
+    color: #a20404cf;
+    border-radius: 2px 3px 2px;
+    transform: scale(1.1);
+  background-color: rgb(255, 255, 255);
+  
+  }
+
+  iframe{
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    border: #a20404cf 4px solid;
+  }
+  img{
+    height: 230px;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+  border: #a20404cf 2px solid;
+    transition: 1s;
+
+  }
+  img:hover{       
+    border: #ffffff97 4px solid;
+    transform: translateX(5px);
+  }
+  
+  footer{
+    background-color: #a20404cf;
+    height: 75px;
+    margin-top: 20px;
+  
+    text-align: center;
+    font-family: "La Belle Aurore", cursive; 
+    font-size: 20px;
+  }
+
+  /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+ 
+
+
+
+h2{
+    font-family: monospace;
+    font-size: 20px;
+    color: #fff;
+transition: 2s;
+}
+
+h2:hover{
+    color: #a20404cf;
+    background-color: #360808;
+width: 20px;
+    border-radius: 20px;
+    transform: translateX(5px);
+}
